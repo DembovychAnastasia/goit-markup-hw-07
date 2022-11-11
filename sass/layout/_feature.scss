@@ -1,0 +1,39 @@
+/* ------------ FEATURE------------*/
+
+
+.feature-item-icon {
+    height: 120px;
+    background-color: var(--second-backgraund-color);
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.feature-item-title {
+    font-size: inherit;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.feature-list,
+.work-list,
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.featute-text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text);
+}
+
+
+.feature-item {
+    width: calc((100% - 90px) / 4);
+}

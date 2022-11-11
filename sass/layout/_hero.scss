@@ -1,0 +1,56 @@
+/* --------hero--------- */
+.hero {
+    background-color: var(--accent-bgc);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+    width: 698px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    border: none;
+    min-width: 216px;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-background-color);
+    background: var(--accent-text-color);
+    box-shadow: 0px 4px 4px var(--btn-shadow);
+    border-radius: 4px;
+    margin: 0 auto;
+
+    transition-property: backgraund-color, box-shadow, dorder-radius;
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--tnas-funct);
+    &:hover,
+    &:focus {
+            background: var(--accent-text-color);
+            box-shadow: 0px 4px 4px var(--btn-shadow);
+            border-radius: 4px;
+        }
+}
+
