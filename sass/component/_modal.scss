@@ -49,8 +49,7 @@
 
 .modal-close-icon {
     transition-property: fill;
-    transition-duration: var(--trans-time);
-    transition-timing-function: var(--tnas-funct);
+    @extend %transition-properties;
     .modal-close:hover & ,
     .modal-close:focus & {
             fill: var(--accent-text-color);
@@ -89,8 +88,7 @@
     transform: translateY(-50%);
 
     transition-property: fill;
-    transition-duration: var(--trans-time);
-    transition-timing-function: var(--tnas-funct);
+    @extend %transition-properties;
     .modal-input:focus+& {
             fill: var(--accent-text-color);
         }
@@ -107,8 +105,7 @@
     outline: transparent;
 
     transition-property: border-color;
-    transition-duration: var(--trans-time);
-    transition-timing-function: var(--tnas-funct);
+    @extend %transition-properties;
     &:focus {
             border-color: var(--accent-text-color);
         }
@@ -144,8 +141,7 @@
     outline: transparent;
 
     transition-property: border-color;
-    transition-duration: var(--trans-time);
-    transition-timing-function: var(--tnas-funct);
+    @extend %transition-properties;
 
     &:focus {
             border-color: var(--accent-text-color);
@@ -180,7 +176,7 @@
     line-height: 1.88;
 
     display: flex;
-    align-items: center;
+        align-items: center;
     text-align: center;
     margin: 0 auto;
     letter-spacing: 0.06em;
@@ -198,7 +194,7 @@
     letter-spacing: 0.03em;
     color: var(--primary-text);
     display: flex;
-    align-items: center;
+        align-items: center;
     justify-content: center;
 }
 

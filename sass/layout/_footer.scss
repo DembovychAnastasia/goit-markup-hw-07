@@ -11,21 +11,7 @@
     align-items: baseline;
 }
 
-.footer-logo {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--primary-background-color);
-    display: inline-block;
-    margin-bottom: 20px;
-}
 
-.footer-logo-one {
-    color: var(--accent-text-color);
-}
 
 .footer-item:not(:last-child) {
     font-style: normal;

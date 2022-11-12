@@ -23,8 +23,7 @@
     display: block;
 
     transition-property: color, backgraund-color, box-shadow;
-    transition-duration: var(--trans-time);
-    transition-timing-function: var(--tnas-funct);
+    @extend %transition-properties;
     &:hover,
     &:focus {
             color: var(--primary-background-color);

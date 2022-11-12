@@ -30,9 +30,7 @@
     justify-content: center;
 
     transition-property: backgraund-color;
-    transition-duration: var(--trans-time);
-    transition-timing-function: var(--tnas-funct);
-
+    @extend %transition-properties;
     &:hover,
     &:focus {
             background-color: var(--accent-text-color);
@@ -43,8 +41,7 @@
     fill: var(--primary-background-color);
 
     transition-property: fill;
-    transition-duration: var(--trans-time);
-    transition-timing-function: var(--tnas-funct);
+    @extend %transition-properties;
 
     .footer-soc-link:hover & {
             fill: var(--primary-background-color);

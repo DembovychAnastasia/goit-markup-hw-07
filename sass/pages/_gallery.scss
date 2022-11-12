@@ -72,8 +72,7 @@
     display: block;
 
     transition-property: box-shasow;
-    transition-duration: var(--trans-time);
-    transition-timing-function: var(--tnas-funct);
+    @extend %transition-properties;
 
 &:hover,
 &:focus {
